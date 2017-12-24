@@ -197,7 +197,7 @@ header
 
 .section1
 {
-	background: url("images/lagua.jpg") no-repeat;
+	background: url("images/lagua.JPG") no-repeat;
 	background-size: cover;
 	font-family: 'Courgette', cursive;
 	width: 100%;
@@ -342,7 +342,7 @@ header
 }*/
 #jardines
 {
-	background: url("images/jardinp2.jpg") no-repeat;
+	background: url("images/jardinp2.JPG") no-repeat;
 	background-size: 100% 100%;
 	text-align: center;
 	box-shadow: 1px 1px 1px #000;
@@ -370,7 +370,7 @@ header
 }
 #areas-recreativas
 {
-	background: url("images/2.jpg") no-repeat;
+	background: url("images/2.JPG") no-repeat;
 	background-size: 100% 100%;
 	text-align: center;
 	box-shadow: 1px 1px 1px #000;
