@@ -1,0 +1,830 @@
+/* ************ Reset Stylesheet ********** */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    list-style: none;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* *********************** MENU BAR ************************* #28bd4b*/
+
+body
+{
+	background-color: #5cd65c;
+	font-family: 'Courgette', cursive;
+	color: black;
+}
+header 
+{
+	background-color: white;
+	font-family: 'Courgette', cursive;
+	width: 100%;
+	height: 120px;
+	min-width: 1150px;
+}
+.wrapper
+{
+	width: 1100px;
+	margin: 10px auto;
+}
+#logo
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+#menu
+{
+	float: left;
+}
+#menulist
+{
+	margin-top: 35px;
+	margin-left: 130px;
+}
+.menulistitem
+{
+	display: inline-block;
+	margin-left: 18px;
+}
+.menulistitem:hover a
+{
+	color: #FCBA02;
+}
+.menulistitema
+{
+	text-decoration: none;
+	color: #5cd65c;
+	background-color: transparent;
+	line-height: 50px;
+	text-align: center;
+	font-size: 25px;
+}
+.icons
+{
+	display: flex;
+	position: right top;
+	padding-left: 135px;
+	padding-top: 40px;
+
+}
+.icons li
+{
+	list-style: none;
+}
+.icons li a
+{
+	width: 40px;
+	height: 40px;
+	background: #5cd65c;
+	text-align: center;
+	line-height: 40px;
+	font-size:20px;
+	margin: 0 10px;
+	display: block;
+	border-radius: 50%;
+	color: white; 
+}
+.menulisticon:hover a
+{
+	color: #FCBA02;
+}
+/*.share-button.icon:before
+{
+	font-size: Arial;
+	padding-right: 2px;
+}
+.share-button.icon.facebook:before
+{
+	content: "\f231";
+}
+.share-button.facebook
+{
+	background: #3b5998;
+}*/
+
+/* *********************** SUBMENU BAR ************************* */
+
+.section1
+{
+	background: url("images/lagua.jpg") no-repeat;
+	background-size: cover;
+	font-family: 'Courgette', cursive;
+	width: 100%;
+	height: 400px;
+	margin-top: 10px;
+	min-width: 1150px;
+}
+#slogan
+{
+	padding-top: 150px;
+	text-align: center;
+	font-size: 60px;
+	font-style: italic;
+	color: white;
+	text-shadow: 3px 3px 8px #000000;
+
+}
+#submenu
+{
+
+}
+#submenulist
+{
+	padding-top: 130px;
+}
+.submenulistitem
+{
+	margin-right: 17px;
+	width: 200px;
+	height: 160px;
+	float: left;
+	margin-left: 3px;
+}
+.frame 
+{
+    border: 1px solid #fff;
+    margin: 5px;
+    padding-top: 18px;
+    padding-bottom: 65px;
+}
+.frame2
+{
+    border: 1px solid #fff;
+    margin: 5px;
+    padding-bottom: 45px;
+    padding-top: 10px;
+}
+
+#hospedaje
+{
+	background: url("images/19.jpg") no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	box-shadow: 1px 1px 1px #000;
+}
+#hospedaje:hover
+{
+	box-shadow: 1px 3px 5px #000;
+	margin-top: -2px; 
+}
+#hospedaje:hover .frame
+{
+	border: 1px solid #FCBA02;
+}
+#hospedajea
+{
+	text-decoration: none;
+	line-height: 0px;
+	font-size: 23px;
+	text-shadow: 2px 2px 8px #000;
+	color: white;
+}
+#hospedajea:hover
+{
+	color: #FCBA02;
+}
+#sala-de-conferencias
+{
+	background: url("images/39.jpg") no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	box-shadow: 1px 1px 1px #000;
+}
+#sala-de-conferenciasa
+{
+	text-decoration: none;
+	color: white;
+	line-height: 23px;
+	font-size: 21px;
+	text-shadow: 2px 2px 8px #000;
+}
+#sala-de-conferencias:hover
+{
+	box-shadow: 1px 3px 5px #000;
+	margin-top: -2px; 
+}
+#sala-de-conferencias:hover .frame2
+{
+	border: 1px solid #FCBA02;
+}
+#sala-de-conferenciasa:hover
+{
+	color: #FCBA02;
+}
+/*#churuata
+{
+	background: url("images/50.jpg") no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	box-shadow: 1px 1px 1px #000;
+}
+#churuataa
+{
+	text-decoration: none;
+	color: white;
+	line-height: 21px;
+	font-size: 22px;
+	text-shadow: 2px 2px 8px #000;
+}
+#churuataa:hover
+{
+	color: #FCBA02;
+}
+#bar
+{
+	background: url("images/26.jpg") no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	box-shadow: 1px 1px 1px #000;
+}
+#bara
+{
+	text-decoration: none;
+	color: white;
+	line-height: 10px;
+	font-size: 25px;
+	text-shadow: 2px 2px 8px #000;
+}
+#bara:hover
+{
+	color: #FCBA02;
+}*/
+#jardines
+{
+	background: url("images/jardinp2.jpg") no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	box-shadow: 1px 1px 1px #000;
+}
+#jardinesa
+{
+	text-decoration: none;
+	color: white;
+	line-height: 10px;
+	font-size: 22px;
+	text-shadow: 2px 2px 8px #000;
+}
+#jardines:hover
+{
+	box-shadow: 1px 3px 5px #000;
+	margin-top: -2px; 
+}
+#jardines:hover .frame
+{
+	border: 1px solid #FCBA02;
+}
+#jardinesa:hover
+{
+	color: #FCBA02;
+}
+#areas-recreativas
+{
+	background: url("images/2.jpg") no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	box-shadow: 1px 1px 1px #000;
+}
+#areas-recreativasa
+{
+	text-decoration: none;
+	color: white;
+	line-height: 23px;
+	font-size: 21px;
+	text-shadow: 2px 2px 8px #000;
+}
+#areas-recreativas:hover
+{
+	box-shadow: 1px 3px 5px #000;
+	margin-top: -2px; 
+}
+#areas-recreativas:hover .frame2
+{
+	border: 1px solid #FCBA02;
+}
+#areas-recreativasa:hover
+{
+	color: #FCBA02;
+}
+#comida
+{
+	background: url("images/1.jpg") no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	box-shadow: 1px 1px 1px #000;
+}
+#comidaa
+{
+	text-decoration: none;
+	color: white;
+	line-height: 10px;
+	font-size: 22px;
+	text-shadow: 2px 2px 8px #000;
+}
+#comida:hover
+{
+	box-shadow: 1px 3px 5px #000;
+	margin-top: -2px; 
+}
+#comida:hover .frame
+{
+	border: 1px solid #FCBA02;
+}
+#comidaa:hover
+{
+	color: #FCBA02;
+}
+
+/************************** Intro *********************************/
+
+.intro
+{
+	margin-top: 10.5%;
+	text-align: center;
+	font-size: 21px;
+	color: white;
+	line-height: 120%;
+	text-shadow: 2px 2px 8px #000;
+	padding-left: 20px;	
+}
+
+/************************ Contenido ******************************/
+
+/* ~ SERVICIOS ~ */
+
+.cuadro 
+{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	margin-left: 10px;
+	overflow: hidden;
+}
+#hservicios
+{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.sservicios
+{
+	width: 91%;
+	text-align: center;
+	line-height: 180%;
+	float: left;
+	font-size: 18px;
+	text-shadow: 1px 1px 1px #ccc;
+	padding-left: 50px;
+	padding-bottom: 45px;
+	padding-right: 45px; 
+	color: #5cd65c;
+	border: 1px solid #5cd65c;
+}
+#servicios-image
+{
+	background: url("images/r3.jpg") no-repeat;
+	background-size:100% 100%;
+	float: right;
+	width: 100%;
+	min-height: 100%;
+	height: 400px;
+	margin-top: 10px;
+}
+@media screen and (min-device-width: 420px) {
+	#servicios-image
+	{
+		background: url("images/r3.jpg") no-repeat;
+		background-size:100% 100%;
+		float: right;
+		width: 50%;
+		min-height: 100%;
+		height: 400px;	
+		margin-top: 0px;
+	}
+	.sservicios
+	{
+		width: 40%;
+		text-align: center;
+		line-height: 180%;
+		float: left;
+		font-size: 18px;
+		text-shadow: 1px 1px 1px #ccc;
+		padding-left: 50px;
+		padding-bottom: 45px;
+		padding-right: 45px; 
+		color: #5cd65c;
+		border: 1px solid #5cd65c;
+	}
+}
+/* - Hospedaje, Sala de conferencia, Bar, etc - */
+
+.cuadro2 
+{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	overflow: hidden;
+	line-height: 200%;
+	font-size: 20px;
+	color: #fff;
+}
+
+.shospedaje
+{
+	width: 100%;
+	float: left;
+	margin-top: -10px;
+	border: 5px solid #fff;
+	text-shadow: 1px 1px 1px #000;
+	background: url("images/32.jpg") no-repeat fixed;
+	background-size: 100% 100%;
+	background-position: center;
+}
+.cuadro3
+{
+	margin: 50px;
+	padding-bottom: 25px;
+	background-color: rgba(255, 255, 255, .15);
+	box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .3);
+}
+.shospedaje h1
+{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.shospedaje p
+{
+	text-align: center;
+	padding: 5px;
+}
+.ssala-de-conferencias
+{
+	width: 100%;
+	float: left;
+	margin-top: -10px;
+	border: 5px solid #fff;
+	text-shadow: 1px 1px 1px #000;
+	background: url("images/41.jpg") no-repeat fixed;
+	background-size: 100% 100%;
+	background-position: center;
+}
+.ssala-de-conferencias h1
+{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.ssala-de-conferencias p
+{
+	text-align: center;
+	padding: 5px;
+}
+.schuruata
+{
+	width: 100%;
+	float: left;
+	margin-top: -10px;
+	border: 5px solid #fff;
+	text-shadow: 1px 1px 1px #000;
+	background: url("images/45.jpg") no-repeat fixed;
+	background-size: 100% 100%;
+	background-position: center;
+}
+.schuruata h1
+{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.schuruata p
+{
+	text-align: center;
+	padding: 5px;
+}
+.sbar
+{
+	width: 100%;
+	float: left;
+	margin-top: -10px;
+	border: 5px solid #fff;
+	text-shadow: 1px 1px 1px #000;
+	background: url("images/26.jpg") no-repeat fixed;
+	background-size: 100% 100%;
+	background-position: center;
+}
+.sbar h1
+{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.sbar p
+{
+	text-align: center;
+	padding: 5px;
+}
+.sjardines
+{
+	width: 100%;
+	float: left;
+	margin-top: -10px;
+	border: 5px solid #fff;
+	text-shadow: 1px 1px 1px #000;
+	background: url("images/jardinp2.jpg") no-repeat fixed;
+	background-size: 100% 100%;
+	background-position: center;
+}
+.sjardines h1
+{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.sjardines p
+{
+	text-align: center;
+	padding: 5px;
+}
+.sareas-recreativas
+{
+	width: 100%;
+	float: left;
+	margin-top: -10px;
+	border: 5px solid #fff;
+	text-shadow: 1px 1px 1px #000;
+	background: url("images/26.jpg") no-repeat fixed;
+	background-size: 100% 100%;
+	background-position: center;
+}
+.sareas-recreativas h1
+{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.sareas-recreativas p
+{
+	text-align: center;
+	padding: 5px;
+}
+.scomidas
+{
+	width: 100%;
+	float: left;
+	margin-top: -10px;
+	border: 5px solid #fff;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	background: url("images/r16.jpg") no-repeat fixed;
+	background-size: 100% 100%;
+	background-position: center;
+	margin-bottom: -10px;
+}
+.scomidas h1
+{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.scomidas p
+{
+	text-align: center;
+	padding: 5px;
+}
+
+
+
+/****************************** Gallery ********************************/
+.gallerysection
+{
+	margin-left: 20px;
+	margin-top: 13px;
+	margin-bottom: -13px;
+	box-sizing: border-box !important;
+}
+
+div.gallery 
+{
+    border: 5px solid #fff;
+    margin-bottom: 13px;
+}
+
+div.gallery:hover 
+{
+    border: 5px solid #FCBA02;
+}
+
+div.gallery img 
+{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -2px;
+}
+
+div.desc 
+{
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive 
+{
+    padding: 0 6px;
+    float: left;
+    width: 31.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/****************************** Footer *********************************/
+
+.back-to-top 
+{
+	background: none;
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 70px;
+	height: 70px;
+	z-index: 100;
+	display: none;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: transparent;
+ }
+ 
+  
+ 
+.back-to-top i 
+{
+	font-size: 60px;
+}
+
+.info
+{
+	height: 480px;
+	margin-bottom: 15px;
+}
+
+#subicacion
+{
+	margin-left: 20px;
+	float: left;
+	background: white;
+	border: 5px solid #fff;
+}
+#scontacto
+{
+	margin-left: 15px;
+	float: left;
+	background: white;
+	border: 5px solid #fff;
+}
+
+footer
+{
+	width: 100%;
+	background-color: #051505;
+	padding: 10px 0px;
+	min-width: 1150px;
+}
+footer h1
+{
+	color: #ccc;
+	float: left;
+	padding-top: 25px;
+	font-weight: 100;
+	margin-left: 10px;
+}
+footer img
+{
+	margin-left: 11%;
+	width: 10%;
+}
+footer p
+{
+	color: #ccc;
+	font-size: 15px;
+	float: right;
+	line-height: 180%;
+	padding-top: 10px;
+}
